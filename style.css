@@ -1,0 +1,54 @@
+body{
+    font-family: 'PT Serif', serif;
+    margin: 10% ;
+}
+section{
+    display:flex;
+    margin-bottom: 100px;
+}
+.half-width{
+    width: 50%
+    
+}
+.middle{
+    padding-top: 100px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+.happiness{
+    color: #F1CA89;
+}
+h2{
+    text-align: center;
+}
+
+.order-food{
+    text-decoration: none;
+    background-color: #FF616D;
+    padding: 10px 20px;
+    border-radius: 25px 25px;
+}
+.half-width img{
+    width: 100%;
+}
+.middle{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+.middle-image{
+    width: 40%;
+    margin-left:5px;
+    position: center;
+    padding-bottom: 0;
+    
+}
+.abc{
+    text-align: center;
+}
+.flex{
+    display: flex;
+    padding: 20px 20px;
+}
