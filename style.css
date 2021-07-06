@@ -32,17 +32,22 @@ h2{
     border-radius: 25px 25px;
 }
 .half-width img{
-    width: 100%;
+    width: 50%;
 }
 .middle{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0;
 }
-.middle-image{
-    width: 40%;
-    margin-left:5px;
-    position: center;
-    padding-bottom: 0;
+.middle-image img{
+    width: 47%;
+    padding: 2%;
+    
+
+    
+position: center;
+
     
 }
 .abc{
@@ -72,8 +77,22 @@ h2{
   
 .flex-container {
     display: flex;
-    justify-content: flex-start ;
-    padding: 20px 20px;
+   
+    /* background-color: #FF616D; */
+    
+  
+  }
+  .flex-item {
+      border: 1px solid #fff;
+      font-size: 30px;
+      padding:10px;
+      color:royalblue;
+      margin-right: 2%;
+      width: 30%;
+      
+  }
+  .flex-item img{
+      width: 80%;
   }
   footer{
       height: 150px;
@@ -90,4 +109,20 @@ h2{
     color: white;
     text-align: center;
     padding-bottom: 25px;
+  }
+  .three-flex{
+      display: flex;
+      width: 30%;
+      padding: 10%;
+      justify-content: center;
+      height:100%;
+      align-items: center;
+  }
+  .one-flex{
+      border: 10px;
+      padding:3%;
+      
+  }
+  .space{
+      padding: 20px;
   }
